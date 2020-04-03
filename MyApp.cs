@@ -15,6 +15,13 @@ namespace WindowsFormsApp3
         public MyApp()
         {
             InitializeComponent();
+            Myapp();
+        }
+
+
+        private void Myapp()
+        {
+            MessageBox.Show("Hello");
         }
     }
 }
